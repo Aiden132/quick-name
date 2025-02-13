@@ -78,8 +78,8 @@ func nameShow() {
 	ctx := context.Background()
 
 	prompt := `
-		This is an episode of SHOWNAME Season X can you please use this 30 second transcription
-		and tell me what episode it could be form in the format SHOWNAMES0XE0X and then tell me why
+		This is an episode of SHOWNAME Season X use this transcription
+		and tell me what episode it could be. put it in the format SHOWNAMESXXEXX and then tell me why
 	`
 
 	apiKey, ok := os.LookupEnv("GEMINI_API_KEY") // SET UP THE API KEY IN A ENV FILE
